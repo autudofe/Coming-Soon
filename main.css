@@ -1,0 +1,200 @@
+@font-face {
+    font-family:"Mission Script" ;
+    src: url(font/Mission_Script/Mission-Script.otf);
+}
+@font-face {
+    font-family: "Museo Sans Cyrl 900";
+    src: url(font/museo-sans-cyrl-900/MuseoSansCyrl_3.otf);
+}
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url(font/lucida-sans-unicode.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html {
+    font-size: 1vw;
+}
+
+body {
+    background-color: hsl(217, 87%, 15%);
+}
+
+.container {
+    background: url(image/glow.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#img1 {
+    width: 66rem;
+    height: 16.5rem;
+    margin-top: -10.5rem;
+    margin-left: 16.5rem;
+    margin-right: auto;
+}
+
+.com_soon {
+    width: 31rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-left: 34rem;
+}
+
+.still {
+    text-align: center;
+    margin-top: 12.2rem;
+    font: 2.6rem Mission Script;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.face {
+    width: 9rem;
+    height: 2rem;
+    margin-top: 11.5rem;
+    margin-left: 39.5rem;
+}
+
+.twit {
+    width: 8.5rem;
+    height: 1.8rem;
+    margin-top: 11.5rem;
+    margin-left: 1rem;
+}
+
+.copyright {
+    font: 0.9rem Lucida Sans Unicode, Arial;
+    text-align: center;
+    margin-left: -2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+#email {
+
+    position: absolute;
+    margin-left: 36rem;
+    margin-top: 3.4rem;
+    width: 25rem;
+    height: 3.1rem;
+    font: 1.2rem Lucida Sans Unicode, Arial;
+    box-shadow: 0rem 0.8rem 2rem black;
+    border-radius: 0.3rem;
+}
+
+
+
+label {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    margin: auto auto;
+    top: 34.4rem;
+    left: 58.5rem;
+}
+
+.arrow{
+    width: 5rem;
+    height: 5.5rem;
+}
+
+input[type="submit"]{
+    display: none;
+
+}
+.coming{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font: 8.3rem 'Museo Sans Cyrl 900', Arial;
+}
+span{
+    position: relative;
+    display: inline-block;
+
+}
+span:nth-of-type(1) {
+    z-index: 5;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    transform: rotate(-17deg);
+    text-shadow: 0.2rem 0.5rem 0.05rem hsl(0, 0%, 0%);
+}
+
+span:nth-of-type(2){
+    z-index: 4;
+    transform: rotate(0deg) scaleY(1);
+    margin-left: -3.3rem;
+    text-shadow: 0.2rem 0.4rem 0.05rem  hsl(0, 0%, 0%);;
+}
+span:nth-of-type(3){
+    z-index: 3;
+    transform: rotate(3deg) scaleY(1) scaleX(1);
+    margin-left: -3rem;
+    text-shadow: 0.2rem 0.4rem 0.05rem hsl(0, 0%, 0%);;
+}
+span:nth-of-type(4){
+    z-index: 2;
+    transform: rotate(10deg) scaleY(1) scaleX(1);
+    margin-left: -2.8rem;
+    text-shadow: 0.2rem 0.4rem 0.05rem  hsl(0, 0%, 0%);;
+}
+span:nth-of-type(5){
+    z-index: 1;
+    transform: rotate(-4deg) scaleY(1) scaleX(1);
+    margin-left: -2.5rem;
+    text-shadow: 0.2rem 0.4rem 0.05rem  hsl(0, 0%, 0%);;
+}
+span:nth-of-type(6){
+    z-index: 6;
+    transform: rotate(3deg) scaleY(1) scaleX(1);
+    margin-left: -3rem;
+    text-shadow: -0.2rem 0.4rem 0.05rem  hsl(0, 0%, 0%);;
+}
+
+
+.soon{
+    position: absolute;
+    margin-top: -10rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font: 11.2rem 'Museo Sans Cyrl 900', Arial;
+}
+
+span:nth-of-type(7) {
+    z-index: 2;
+    transform: rotate(2deg);
+    margin-top: -3.7rem;
+    margin-left: -13.6rem;
+    text-shadow: 0.2rem 0.3rem 0.05rem hsl(0, 0%, 0%);
+}
+
+span:nth-of-type(8){
+    z-index: 3;
+    transform: rotate(2deg);
+    margin-top: -3.7rem;
+    margin-left: -8.5rem;
+    text-shadow: -0.2rem 0.3rem 0.05rem hsl(0, 0%, 0%);
+}
+span:nth-of-type(9){
+    z-index: 4;
+    transform: rotate(2deg);
+    margin-top: -3.7rem;
+    margin-left: -1.9rem;
+    text-shadow: 0.2rem 0.3rem 0.05rem hsl(0, 0%, 0%);
+}
+span:nth-of-type(10){
+    z-index: 1;
+    transform: rotate(-4deg);
+    margin-top: -3.7rem;
+    margin-left: 5.3rem;
+    text-shadow: 0.2rem 0.3rem 0.05rem hsl(0, 0%, 0%);
+}
